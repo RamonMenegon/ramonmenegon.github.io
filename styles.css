@@ -1,0 +1,105 @@
+body {
+font-family: 'Times New Roman', Times, serif;
+margin: 0;
+padding: 0;
+background-color: rgb(248, 240, 231);
+}
+
+header {
+    background-color: rgb(72, 57, 37);
+ color: rgb(62, 53, 40); /* cor das letras do cabeçario */
+padding: 1cm; 0;
+
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+
+}
+
+nav ul li {
+display: inline;
+margin: 15px;
+
+}
+
+nav ul li a {
+    color: rgb(255, 250, 243);
+    text-decoration: none;
+
+}
+
+main {
+padding: 20px;
+text-align: center;
+
+}
+
+footer {
+background-color: rgb(72, 57, 37);
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 1px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+form {
+display: inline-block;
+text-align: left;
+
+}
+
+form label{
+display: block;
+margin-top: 10px ;
+
+}
+
+form textarea {
+width: 100%;
+max-width: 500px;
+
+}
+
+section {
+
+    margin: 20 px ;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.item
+{
+background-color: rgb(229, 210, 187);
+padding: 20px;
+margin: 30px;
+flex: 1 1 300px;
+text-align: center;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgb(red, green, blue);
+
+
+}
+#projetos {
+
+text-align: center;
+
+}
+
+.imagem-redonda {
+    width: 150px;          /* largura da imagem */
+    height: 150px;         /* altura da imagem (igual à largura para manter quadrado) */
+    border-radius: 50%;    /* isso deixa a imagem redonda */
+    object-fit: cover;     /* mantém o conteúdo da imagem centralizado e sem distorção */
+    border: 3px solid #a48a06;
+    image-rendering: optimizeQuality;
+}
